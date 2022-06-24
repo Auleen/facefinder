@@ -1,0 +1,44 @@
+.bar{
+    position: relative;
+    display: flex;
+    justify-content:space-around;
+    height: 400px;
+    margin-top: 3rem;
+    /* align-content: space-evenly; */
+}
+.info{
+    background-color: black;
+    text-align: center;
+    color: white;
+    /* height: auto; */
+    font-size: 1.2rem;
+}
+.inputimg{
+    position: inherit;
+    margin: none;
+    padding: 2px;
+    border: 2px black solid;
+    height: auto;
+    display: block;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+img{
+    display: block;
+    height: auto;
+    /* width: 40%; */
+    width: 500px;
+}
+
+.bounding-box {
+    position: absolute;
+    box-shadow: 0 0 0 3px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+    /* z-index: 5px; */
+  }

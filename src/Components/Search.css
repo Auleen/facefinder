@@ -1,0 +1,44 @@
+.container{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+ .submit{
+    background-color: rgb(247, 74, 74);
+    height: max-content;
+    color: azure;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+
+ }
+ .input{
+    width: 80%;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    text-align:left;
+ }
+ .textCont{
+    width: 100%;
+    text-align: center;
+    /* background-color: bisque; */
+ }
+ .submit:hover{
+    background-color: rgb(24, 145, 34);
+    height: max-content;
+    color: rgb(247, 247, 247);
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    cursor: pointer;
+
+ }
+.search{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px #888888;
+    width: 50%;
+}

@@ -1,0 +1,39 @@
+.nav{
+    color: black;
+    max-height: max-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    box-shadow: 2px 2px 2px 2px #888888;
+    margin-bottom: 2rem;
+    /* background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); */
+}
+
+.logo{
+
+    justify-content: start;
+}
+
+.sgnout{
+    margin-top: 1rem;
+    background-color: rgb(74, 74, 247);
+    height: max-content;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+    border: none;
+    /* box-shadow: 0.5px 1px inset grey; */
+    cursor: pointer;
+    padding: 0.8rem;
+    color: aliceblue;
+    border: 1px black solid;
+
+}
+
+.sgnout:hover{
+
+    background-color: white;
+    border:2px black solid;
+    color: rgb(74, 74, 247);
+}
