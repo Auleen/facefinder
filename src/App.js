@@ -1,9 +1,11 @@
 import React, { useState, useRef } from "react";
 import "./App.css";
-import Clarifai from "clarifai";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./Components/Navbar";
 import SearchBar from "./Components/SearchBar";
 import ImageBar from "./Components/ImageBar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import SignInSide from "./Components/Signin";
 
 const USER_ID = "auleen";
 
@@ -86,13 +88,25 @@ function App() {
   //render app
   return (
     <>
-      <Navbar />
-      <SearchBar
-        oninput={changeurl}
-        stateurl={url}
-        buttonclick={onbuttonclick}
-      />
-      <ImageBar imgurl={url} box={box} />
+      <BrowserRouter>
+        <Routes>
+          <Route index exact path="/" element={<SignInSide />} />
+          <Route
+            path="/home"
+            element={
+              <>
+                <Navbar />
+                <SearchBar
+                  oninput={changeurl}
+                  stateurl={url}
+                  buttonclick={onbuttonclick}
+                />
+                <ImageBar imgurl={url} box={box} />
+              </>
+            }
+          />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
