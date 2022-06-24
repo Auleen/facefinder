@@ -10,15 +10,15 @@
     background-color: black;
     text-align: center;
     color: white;
-    /* height: auto; */
+    margin-top: 0.2rem;
     font-size: 1.2rem;
 }
 .inputimg{
     position: inherit;
     margin: none;
-    padding: 2px;
+    padding: 0.6rem;
     border: 2px black solid;
-    height: auto;
+    height: fit-content;
     display: block;
     width: fit-content;
     background-color: white;
