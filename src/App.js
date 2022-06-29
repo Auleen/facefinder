@@ -7,13 +7,13 @@ import ImageBar from "./Components/ImageBar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import SignInSide from "./Components/Signin";
 
-const USER_ID = "auleen";
+const USER_ID = "";
 
 // Your PAT (Personal Access Token) can be found in the portal under Authentification
-const PAT = "3a221606b13346e691076a43ec20ccb3";
-const APP_ID = "18fe599ac2d44347be84af2d21baed7b";
+const PAT = "";
+const APP_ID = "";
 const MODEL_ID = "face-detection";
-const MODEL_VERSION_ID = "45fb9a671625463fa646c3523a3087d5";
+const MODEL_VERSION_ID = "";
 
 function App() {
   const [url, setUrl] = useState("");
